@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumsail Form Integration</title>
+</head>
+<body>
+    <h1>Welcome to My Page with Plumsail Form</h1>
+    <p>This page includes a Plumsail form.</p>
+ 
+    <script type="text/javascript" src="https://au-forms.plumsail.com/api/widget/7f35ee0c-e68e-4e96-8214-8d9fa78677b8"></script>
+    <div id="plumsail-form-zpxu"><div class="fd-form-loading"></div></div>
+    <script type="text/javascript">
+        var fd = new Plumsail.Form("#plumsail-form-zpxu", "7f35ee0c-e68e-4e96-8214-8d9fa78677b8");
+    </script>
+</body>
+</html>
+ 
